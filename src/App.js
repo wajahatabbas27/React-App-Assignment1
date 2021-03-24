@@ -1,11 +1,12 @@
 import './App.css';
 import Hello from './Hello.js';
+import Navbar from "@bit/wajahataz110.firstpracticebit.navbar";
 
 function App(props) {
   return (
     <div>
       <strong>HEllo Wajahat Abbas</strong>
-      <br/>
+      <br />
       <p>There are 5 subjects in {props.name}</p>
       <ol>
         <li>Maths</li>
@@ -15,6 +16,8 @@ function App(props) {
         <li>Urdu</li>
       </ol>
       <Hello name="SWAZ"></Hello>
+      <Navbar />
+
     </div>
   );
 }
